@@ -27,60 +27,69 @@ Page 1 merupakan halaman utama dari aplikasi Sistem Informasi Rumah Sakit. Pada 
 
 Tombol "Admin" akan memindahkan pengguna ke halaman Page 2, yang merupakan halaman login bagi administrator. Tombol "User" akan memindahkan pengguna ke halaman Page 6, yang merupakan halaman login bagi pengguna.
 
-<img alt=page1>
+![gam1](https://github.com/user-attachments/assets/092a30f3-2597-41fb-a9f2-397d0ad3eaff)
+
 
 Page 2
 Page 2 adalah halaman login untuk administrator. Pada halaman ini, administrator diminta untuk memasukkan username dan password. Jika input username dan password sesuai (admin dan 12345), pengguna akan diarahkan ke halaman Page 3.
 
 Tombol "Login" akan memanggil fungsi cek_login() untuk memeriksa kecocokan username dan password yang dimasukkan. Tombol "Back" akan kembali ke halaman Page 1.
 
-<img alt=page2>
+![gam2](https://github.com/user-attachments/assets/a0082e4f-c4f0-466c-bee4-1110261ca2d7)
+
 
 Page 3
 Page 3 merupakan halaman selamat datang bagi administrator setelah berhasil login. Pada halaman ini, administrator dapat memilih opsi untuk memasukkan data pasien atau data obat.
 
 Tombol "Input Data Pasien" akan memindahkan pengguna ke halaman Page 4, yang merupakan halaman untuk memasukkan data pasien. Tombol "Input Data Obat" akan memindahkan pengguna ke halaman Page 5, yang merupakan halaman untuk memasukkan data obat. Tombol "Logout" akan memindahkan pengguna ke halaman Page 2 untuk keluar dari akun administrator.
 
-Screenshot (613)
+![gam3](https://github.com/user-attachments/assets/07ef1bbe-a870-40de-8a22-0179032fe6ea)
+
 
 Page 4
 Page 4 adalah halaman untuk memasukkan data pasien. Pada halaman ini, administrator dapat memasukkan informasi pasien seperti nama, umur, jenis kelamin, alamat, ruangan, dan jenis penyakit. Data pasien yang dimasukkan akan disimpan dalam array data_pasien dan ditampilkan dalam bentuk tabel menggunakan komponen Treeview.
 
 Setelah memasukkan data pasien, pengguna dapat menekan tombol "Tambah Pasien" untuk memasukkan data tersebut ke dalam array data_pasien. Tombol "Hapus Pasien" digunakan untuk menghapus data pasien yang dipilih dari array data_pasien dan mengupdate tampilan tabel. Tombol "Update Pasien" akan memunculkan jendela pop-up yang memungkinkan administrator untuk mengubah data pasien yang telah dimasukkan sebelumnya.
 
-Screenshot (614)
+![gam4](https://github.com/user-attachments/assets/09e7d669-05b6-43fe-a9fb-a3fa17ed12e6)
+
 
 Page 5
 Page 5 adalah halaman untuk memasukkan data obat. Pada halaman ini, administrator dapat memasukkan informasi obat seperti nama obat, kategori, jumlah stok, dan harga. Data obat yang dimasukkan akan disimpan dalam array data_obat dan ditampilkan dalam bentuk tabel menggunakan komponen Treeview.
 
 Setelah memasukkan data obat, pengguna dapat menekan tombol "Tambah Obat" untuk memasukkan data tersebut ke dalam array data_obat. Tombol "Hapus Obat" digunakan untuk menghapus data obat yang dipilih dari array data_obat dan mengupdate tampilan tabel. Tombol "Update Obat" akan memunculkan jendela pop-up yang memungkinkan administrator untuk mengubah data obat yang telah dimasukkan sebelumnya.
 
-Screenshot (615)
+![gam5](https://github.com/user-attachments/assets/6be82976-1604-49dd-8c26-fd773d2fc4e5)
+
 
 Page 6
 Page 6 adalah halaman login untuk pengguna. Pada halaman ini, pengguna diminta untuk memasukkan username dan password. Jika input username dan password sesuai (user dan 12345), pengguna akan diarahkan ke halaman Page 7.
 
 Tombol "Login" akan memanggil fungsi cek_login() untuk memeriksa kecocokan username dan password yang dimasukkan. Tombol "Back" akan kembali ke halaman Page 1.
 
-Screenshot (616)
+![gam6](https://github.com/user-attachments/assets/d8549923-3653-4229-8054-04c0febf5a74)
+
 
 Page 7
 Page 7 merupakan halaman selamat datang bagi pengguna setelah berhasil login. Pada halaman ini, pengguna dapat melihat data pasien yang telah dimasukkan oleh administrator.
 
 Tombol "Tampilkan Data" akan memanggil fungsi tampilkan_data() untuk menampilkan data pasien dalam bentuk tabel. Tombol "Logout" akan memindahkan pengguna ke halaman Page 6 untuk keluar dari akun pengguna. Kode ini merupakan aplikasi sederhana untuk memahami dasar-dasar penggunaan modul tkinter dan membangun antarmuka pengguna. Anda dapat menyesuaikan dan memperluas fungsionalitas aplikasi sesuai dengan kebutuhan Anda.
 
-Screenshot (617)
+![gam7](https://github.com/user-attachments/assets/a39ab63b-c9ca-472f-ae39-47c648952dfd)
+
 
 Page 8
 Page 8 adalah halaman untuk menampilkan data pasien berdasarkan kriteria tertentu. Pada halaman ini, pengguna dapat memilih kriteria pencarian seperti jenis kelamin, ruangan, atau jenis penyakit. Setelah memilih kriteria, pengguna dapat menekan tombol "Cari" untuk mencari data pasien yang sesuai dan menampilkannya dalam bentuk tabel.
 
 Setelah memilih kriteria pencarian, pengguna dapat menekan tombol "Cari" untuk memanggil fungsi cari_data() dan mencari data pasien yang sesuai dengan kriteria yang dipilih. Tombol "Back" akan kembali ke halaman Page 7.
 
-Screenshot (618)
+![gam8](https://github.com/user-attachments/assets/be4458c9-3548-43f8-804d-9a3926173ea5)
+
 
 Page 9
 Page 9 adalah halaman untuk menampilkan data obat. Pada halaman ini, pengguna dapat melihat data obat yang telah dimasukkan oleh administrator.
 
 Tombol "Tampilkan Data" akan memanggil fungsi tampilkan_data_obat() untuk menampilkan data obat dalam bentuk tabel. Tombol "Logout" akan memindahkan pengguna ke halaman Page 6 untuk keluar dari akun pengguna.
 
-Screenshot (619)
+![gam9](https://github.com/user-attachments/assets/add7e27e-1c4f-42b7-a8e8-e0a7b20bb03f)
+
