@@ -8,9 +8,6 @@ G1A022006 - Merly Yuni Purnama
 <br>G1A022020 - Atika Oktavianti
 <br>G1A022040 - Sinta Ezra Wati Gulo
 
-test:
-![image](https://github.com/user-attachments/assets/2f56a226-08f3-4cca-a3d0-4bb0d6d08948)
-
 
 <br>Sistem Informasi Rumah Sakit
 --------
